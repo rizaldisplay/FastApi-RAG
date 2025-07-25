@@ -1,0 +1,57 @@
+# .gitignore for Python/FastAPI RAG Project
+
+### Secrets ###
+# Jangan pernah unggah file environment yang berisi kunci API (API Keys)
+.env
+.env.*
+!.env.example
+
+### Dependencies ###
+# Abaikan folder virtual environment
+venv/
+.venv/
+env/
+.env/
+env.bak/
+venv.bak/
+
+### Application Generated Data ###
+# Abaikan database vektor dan file PDF yang diunggah pengguna.
+# Direktori ini akan dibuat ulang saat aplikasi berjalan.
+chroma_store/
+uploaded_pdfs/
+vectorstores/
+
+### Log Files ###
+# Abaikan file log yang dibuat saat runtime
+*.log
+logs/
+
+### Python Cache & Artifacts ###
+# Abaikan cache bytecode dan file sementara Python
+__pycache__/
+modules/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+sdist/
+wheel/
+pip-wheel-metadata/
+
+### IDE & Editor Config ###
+# Abaikan file konfigurasi spesifik untuk editor kode
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+### OS Generated Files ###
+# Abaikan file yang dibuat oleh sistem operasi
+.DS_Store
+Thumbs.db

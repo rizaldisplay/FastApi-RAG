@@ -1,0 +1,25 @@
+# === Web Framework ===
+# Untuk menjalankan server API
+fastapi
+uvicorn[standard]
+
+# === Core RAG & LangChain Framework ===
+# Pustaka utama untuk membangun alur RAG
+langchain
+langchain-openai
+langchain-community
+langchain_groq
+
+# === Vector Database & Embeddings ===
+# Mesin database vektor dan pustaka untuk membuat embedding
+chromadb
+sentence-transformers
+
+# === Document Loading ===
+# Untuk membaca dan memproses file PDF
+pypdf
+
+# === Utilities ===
+# Untuk memuat kunci API dari file .env
+python-dotenv
+openai

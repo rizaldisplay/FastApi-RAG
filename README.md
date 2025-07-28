@@ -28,7 +28,7 @@ FASTAPI-RAG/
 - 🧠 Embed document chunks with HuggingFace embeddings
 - 💂️ Store embeddings in ChromaDB
 - 💬 Query documents using LLaMA3 via Groq
-- 💫 NLP using OpenAi via Sumopod
+- 💫 Improve natural language quality using OpenAi via Sumopod
 
 ---
 
@@ -46,7 +46,7 @@ Retrieval-Augmented Generation (RAG) enhances LLMs by injecting external knowled
 
 ## 🚀 Getting Started Locally
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/rizaldisplay/FastApi-RAG.git
